@@ -13,6 +13,7 @@ WITH_GMS := true
 
 # Official-ify
 DERP_BUILDTYPE := Official
+USE_LEGACY_BOOTANIMATION := true
 
 # Inherit some common stuff
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
