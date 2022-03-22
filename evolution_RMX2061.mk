@@ -10,18 +10,14 @@ $(call inherit-product, device/realme/RMX2061/device.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GMS := true
-
-# Official-ify
-DERP_BUILDTYPE := Official
-USE_LEGACY_BOOTANIMATION := true
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
+EVO_BUILD_TYPE := OFFICIAL
 
 # Inherit some common stuff
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := derp_RMX2061
+PRODUCT_NAME := evolution_RMX2061
 PRODUCT_DEVICE := RMX2061
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 6 Pro
