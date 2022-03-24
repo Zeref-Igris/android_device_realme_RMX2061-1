@@ -18,10 +18,10 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit some common stuff
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/krypton/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := derp_RMX2061
+PRODUCT_NAME := krypton_RMX2061
 PRODUCT_DEVICE := RMX2061
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 6 Pro
