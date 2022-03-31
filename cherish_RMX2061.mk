@@ -35,3 +35,8 @@ BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX2061" \
     TARGET_DEVICE="RMX2061"
+
+# Cherish Official
+CHERISH_BUILD_TYPE := OFFICIAL
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=𝘼𝙧𝙥𝙖𝙣
